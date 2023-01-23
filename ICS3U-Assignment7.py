@@ -35,7 +35,7 @@ def main():
         print("\nThe organized list is {0}.".format(final_list))
         print("")
 
-    except(ValueError):
+    except (ValueError):
         print("Invalid input, please try again.")
 
     print("\n\nDone.")
